@@ -21,10 +21,9 @@ body {
 }
 .informacion-lateral {
   background-color: #1E2939;
+  padding-top: 40px;
 
 }
-
-
 li {
   line-height: 24px;
 
@@ -41,24 +40,42 @@ li {
 .descripcion {
   margin-bottom: 40px;
 }
-.contacto {
+.contacto, .titulo-lateral {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
   color: #F5F7FA;
+  margin-top: 50px;
 }
-.E {
+.contacto, .skills-tecnicas, .skills-blandas{
   color: #F5F7FA;
+  margin-left: 40px;
 }
-.C {
+.C, .E {
   color: #F5F7FA;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
 }
-.skills{
-  color: #F5F7FA;
+.contacto-info{
+  color: #ffffff8d;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
-.skills-blandas{
-  color: #F5F7FA;
+.lista-lateral{
+  padding: 0px;
+  padding-left: 17px;
 }
-.tech{
-  text-align: center;
+.lista-lateral > li {
+  color: #FB6D3A;
 }
-.soft{
-  text-align: center;
+.elementos-lista-lateral {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
