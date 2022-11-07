@@ -1,37 +1,64 @@
 body {
-  font-family: Arial;
-  background-color: darkgrey;
+    background-color: #F5F7FA;
+    font-family: 'Montserrat', 'Arial' ;
+    
+  }
+  
+.primero {
+  background-color: #ffffff;
+}
+.contenedor-principal{ 
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 1000px;
+  margin: 40px auto;
+}
+.informacion-general {
+  
+  display: flex;
+  flex-direction: row-reverse;
+}
+.informacion-lateral {
+  background-color: #1E2939;
+
 }
 
-h1 {
-  color: white;
-  font-size: 23px;
+
+li {
+  line-height: 24px;
+
+}
+.uni {
+  font-family: 'Montserrat', 'Arial';
+  color: #FB6D3A;
+  font-weight: bold;
+}
+.descripcion-profesion {
+  font-size: 14px;
+  font-weight: 700;
+}
+.descripcion {
+  margin-bottom: 40px;
+}
+.contacto {
+  color: #F5F7FA;
+}
+.E {
+  color: #F5F7FA;
+}
+.C {
+  color: #F5F7FA;
+}
+.skills{
+  color: #F5F7FA;
+}
+.skills-blandas{
+  color: #F5F7FA;
+}
+.tech{
   text-align: center;
 }
-p {
-  color: orange;
-  font-size: 16px;
-  background-color: #246aae;
+.soft{
   text-align: center;
-}
-
-.title {
-  color: orange;
-}
-
-table, th, td {
-  border: 2px solid white;
-  text-align: center;
-  color: orange;
-}
-
-img {
-    max-width:200px;
-    float: left;
-    margin-right: 15px;
-}
-
-h3 {
-  color: white;
-  font-size: 16px;
 }
