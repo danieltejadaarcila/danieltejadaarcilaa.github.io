@@ -28,7 +28,7 @@ li {
   line-height: 24px;
 
 }
-.uni {
+.texto-naranja {
   font-family: 'Montserrat', 'Arial';
   color: #FB6D3A;
   font-weight: bold;
@@ -39,6 +39,7 @@ li {
 }
 .descripcion {
   margin-bottom: 40px;
+  padding: 88px;
 }
 .contacto, .titulo-lateral {
   font-weight: 700;
@@ -79,3 +80,4 @@ li {
   font-size: 14px;
   line-height: 24px;
 }
+
